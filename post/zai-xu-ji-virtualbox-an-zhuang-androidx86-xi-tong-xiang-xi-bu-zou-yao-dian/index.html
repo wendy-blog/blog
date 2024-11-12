@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>在虚机VirtualBox安装Androidx86系统详细步骤要点 | Wendy Network</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wendy-code.cn/favicon.ico?v=1731427799579">
+<link rel="stylesheet" href="https://wendy-code.cn/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="在虚机VirtualBox安装Androidx86系统详细步骤要点
+10次阅读 没有评论 编辑
+最近需要用到安卓系统蓝牙功能做测试，就选择了Virtualbox+androidx86方案，先把系统安装好，后面看是否可以比较好的完成蓝牙功能测..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wendy-code.cn">
+        <img src="https://wendy-code.cn/images/avatar.png?v=1731427799579" class="site-logo">
+        <h1 class="site-title">Wendy Network</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/Wendy8Wendy" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wendy-code.cn/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">在虚机VirtualBox安装Androidx86系统详细步骤要点</h2>
+            <div class="post-date">2024-11-12</div>
+            
+            <div class="post-content" v-pre>
+              <p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+10次阅读 没有评论 编辑<br>
+最近需要用到安卓系统蓝牙功能做测试，就选择了Virtualbox+androidx86方案，先把系统安装好，后面看是否可以比较好的完成蓝牙功能测试。如果可以的话，我会再发文分享下的，敬请期待。</p>
+<p>1.准备材料<br>
+（1）VirtualBox</p>
+<pre><code>VirtualBox是一款开源虚拟机软件，原由德国Innotek公司开发，后来被Sun Microsystems公司收购，并在Sun被Oracle收购后正式更名为Oracle VM VirtualBox。VirtualBox支持多种操作系统，包括Windows、Linux、macOS、Solaris等，允许用户设置每个客户操作系统正在运行的虚拟硬件的类型，因此即使主机系统的硬件不兼容，用户也能够安装过时的操作系统。
+</code></pre>
+<p>官方下载地址：https://download.virtualbox.org/virtualbox/</p>
+<p>清华大学源下载地址：https://mirrors.tuna.tsinghua.edu.cn/virtualbox/</p>
+<p>Windows版清华大学下载链接 OSX版清华大学下载链接</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+（2）Android-x86</p>
+<p>Android是一个基于Linux内核的开源移动操作系统，由安迪·鲁宾开发，被谷歌收购。它具有开放性、可定制性、庞大的应用生态系统和集成谷歌服务等特点，是全球最流行的移动操作系统之一。</p>
+<p>下载地址：Android-x86 download latest version</p>
+<p>清华大学源下载地址：https://mirrors.tuna.tsinghua.edu.cn/</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+点击获取下载链接</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+我的安装环境是windows10 64bit系统，下载好的包如下所示：</p>
+<p>步骤</p>
+<p>1安装virtual box虚拟机，安装比较简单，这里不赘述。</p>
+<p>2安装androidx86系统</p>
+<p>记录下关键步骤和注意点：</p>
+<p>1、.虚拟电脑名称和系统类型</p>
+<p>当在虚拟光盘选择android-x86_64-9.0-r2.iso时，会自动选择类型为Linux,版本为Ubuntu(32-bit）。 版本按选择的镜像版本（_64）相应修改为Ubuntu(64-bit)，否则后面会安装失败。</p>
+<p>2、 安装系统到硬盘</p>
+<p>如下图，选择Installation -Install Android-x86 to harddisk。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+3、创建硬盘分区</p>
+<p>选择“Create/Modify partitions”。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+不使用GPT分区</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+从可用空间创建新分区，选择New。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+选择Primary。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+回车确定。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+选择Write，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+输入“yes”（注意“s”是显示不出来的），回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+回到界面选择“Quit”，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+4、选择分区安装android系统</p>
+<p>选择刚才分区好的“sda1”，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+选择ext4，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+格式化为etx4，选择Yes，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+安装引导程序GRUB，选择Yes，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+安装/system目录，选择Yes,回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+选择“Reboot（重启）”，回车。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+5、移除虚拟盘</p>
+<p>重启发现又进入了安装界面，原因是光驱中还有安装镜像。可以在设备&gt;分配光驱&gt;移除虚拟盘。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+6、如何设置为开机启动图形界面</p>
+<p>默认的是这种命令行模式如下图所示，不是我们要的图形界面。</p>
+<p>所以我们还需要进一步设置，需要重启一次，开机选择第二项回车，进入debug模式。</p>
+<p>重启选第二项（Debug mode）</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+输入“mount -o remount,rw /mnt”（重新加载/mnt为可写模式）按回车键。</p>
+<p>mount -o remount,rw /mnt<br>
+在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+修改/mnt/grub/menu.lst, 加入nomodeset选项，输入：vi /mnt/grub/menu.lst回车</p>
+<p>vi /mnt/grub/menu.lst<br>
+在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+按“ i ”键，进入编辑模式，在第一个启动项，quiet后面加入nomodeset，如下图：</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+按“esc”键取消编辑模式，输入”：wq”回车保存并退出，重启系统。启动图形界面如下：</p>
+<p>LineageOS系统图形界面设置</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+初次进入图形界面如下，</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+点击语言选择下拉框，选择中文简体。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+点击开始，进入网络连接。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+日期和时间设置。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+Google服务，位置信息什么的自己选择，点接受。</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+进入主界面，如下，现在可以使用这个系统进行开发测试了！</p>
+<p>在虚机VirtualBox安装Androidx86系统详细步骤要点<br>
+正文完</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://wendy-code.cn/post/hello-gridea/">
+                  <h3 class="post-title">
+                    命令备忘（Linux）
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>

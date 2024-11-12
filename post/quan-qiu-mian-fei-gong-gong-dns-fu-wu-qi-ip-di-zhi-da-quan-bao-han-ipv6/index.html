@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>全球免费公共DNS服务器IP地址大全（包含IPv6） | Wendy Network</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wendy-code.cn/favicon.ico?v=1731427799579">
+<link rel="stylesheet" href="https://wendy-code.cn/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="基本上接触过网络相关知识的人应该多少都会听过 DNS 这个名词。因为 DNS 它非常重要，在我们上网的过程中扮演着重要的角色——“将网址/域名解析成 IP 地址”。
+如果配置了不合理的 DNS 服务器，可能会导致网速缓慢、打不开网站;一些恶..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wendy-code.cn">
+        <img src="https://wendy-code.cn/images/avatar.png?v=1731427799579" class="site-logo">
+        <h1 class="site-title">Wendy Network</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/Wendy8Wendy" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wendy-code.cn/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">全球免费公共DNS服务器IP地址大全（包含IPv6）</h2>
+            <div class="post-date">2024-11-12</div>
+            
+            <div class="post-content" v-pre>
+              <p>基本上接触过网络相关知识的人应该多少都会听过 DNS 这个名词。因为 DNS 它非常重要，在我们上网的过程中扮演着重要的角色——“将网址/域名解析成 IP 地址”。</p>
+<p>如果配置了不合理的 DNS 服务器，可能会导致网速缓慢、打不开网站;一些恶意的 DNS 还会让你电脑出现弹窗广告、网站被劫持修改 (中间人攻击)、监听等等一系列的安全问题。因此为了高速稳定上网，小编搜集了目前全球范围内可靠的免费公共 DNS 服务地址……</p>
+<p>针对DNS的问题，今天我们就来总结一下，看看哪个DNS服务器最好用!注意：本测试仅通过奇云测对服务器进行综合测试，具体使用情况请以用户本地为主。</p>
+<p>建议使用ISP默认分配的DNS，只有在特别需要的情况下再使用公共DNS。</p>
+<p>在使用下面的 DNS IP 之前，先通过 ping 命令，测试一下连通性。一般国内使用我提供的几个 DNS 服务器都可以，如果身处国外的话建议选择国外的公共 DNS 服务器。另外经过测试，114DNS、百度 DNS、腾讯 DNS 在国外大部分地区都可以使用，而 Alidns 很多地区连通性不好。</p>
+<p>IPv6 虽然是未来的趋势，但是现在 IPv6 的公共 DNS 服务器并不多，特别是国内暂时没有商业公司提供 IPv6 DNS 服务，所以选取了教育网以及国家的公共 DNS 服务器IP。</p>
+<p>公共dns的ip（IPv6 DNS服务器）</p>
+<p>以下收集的都是目前全球范围内 (更多数是国内的) 比较靠谱的免费公共 DNS 服务的 IP 地址。由于地区差异，同一组 DNS 服务器在不同国家不同地区的表现并不完全相同，解析速度、响应时间等都有所区别，所以建议大家以自行测速结果为准，多多对比再行选择咯。</p>
+<p>★ DNSPod Public DNS</p>
+<p>Public DNS 是属于 腾讯云旗下的公共 DNS 服务。拥有 80 多条国内线路和 4 条海外线路，有 BGP Anycast 技术，也是国内首家支持谷歌 ECS (edns-client-subnet) 协议的公共 DNS 解析服务。它只使用一个 IP，但有三地集群容灾和秒级自动故障切换，在国内大多数地方的测速数据都非常好，值得推荐。</p>
+<p>Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：119.29.29.29</p>
+<p>★ AliDNS 阿里公共 DNS 解析服务</p>
+<p>阿里公共 DNS 是 阿里云 推出的免费 DNS 递归解析系统，宣称全球数百台服务器组成的集群，拥有充足的带宽资源，目标是成为国内互联网基础设施的组成部分，支持 BGP Anycast 以及 ECS 技术。</p>
+<p>AliDNS 阿里公共 DNS</p>
+<p>IPv4 地址</p>
+<p>首选：223.5.5.5</p>
+<p>备用：223.6.6.6</p>
+<p>★ 114 DNS</p>
+<p>114 DNS 在国内的用户量相当巨大，其 DNS 解析成功率高，与 ISP 的 DNS 相比，能访问更多的国内外网站;号称纯净、无劫持、无需再忍受被强插广告或粗俗网站之痛苦;114DNS 做得比较早，有一定的技术积累，稳定性不错，尽管速度比前两者差一点点，但也都能让人满意。它还有一个特色，就是根据不同用途可以选择不同的 DNS 组。</p>
+<p>114 DNS</p>
+<p>常规公共 DNS (干净无劫持)</p>
+<p>首选：114.114.114.114 、备选：114.114.115.115</p>
+<p>拦截钓鱼病毒木马网站 (保护上网安全)</p>
+<p>首选：114.114.114.119、备用：114.114.115.119</p>
+<p>拦截色情网站 (保护儿童)</p>
+<p>首选：114.114.114.110、备用：114.114.115.110</p>
+<p>★ 百度 BaiduDNS</p>
+<p>百度 DNS 公共解析服务，支持 ipv4 和 ipv6。作为中国最大的搜索引擎，百度拥有一流的基础设施和强大技术实力，国内速度相当快!该服务快速稳定无劫持，智能拦截恶意网站，支持 BGP Anycast 和 ECS 技术。</p>
+<p>百度 BaiduDNS</p>
+<p>IPv4 地址：180.76.76.76</p>
+<p>IPv6 地址：2400:da00::6666</p>
+<p>360 DNS 派 (DNSpai Public DNS)</p>
+<p>DNS 派是由 360 出品的免费公众 DNS 解析服务。它可以让网上冲浪更加稳定、快速、安全;为家庭拦截钓鱼网站，过滤非法网站，建立一个绿色健康的网上环境;为域名拼写自动纠错等。</p>
+<p>DNS 派</p>
+<p>首选(电信/移动/铁通)：101.226.4.6</p>
+<p>备选(电信/移动/铁通)：218.30.118.6</p>
+<p>首选(联通)：123.125.81.6</p>
+<p>备选(联通)：140.207.198.6</p>
+<p>首页</p>
+<p>收集</p>
+<p>方法</p>
+<p>程序</p>
+<p>设计</p>
+<p>数据</p>
+<p>远程</p>
+<p>极客道Geekdao.cn</p>
+<p>修电脑装系统调网络</p>
+<p>全球免费公共DNS服务器IP地址大全（包含IPv6）</p>
+<p>2022-08-31 0条评论 6.72k次阅读 3人点赞 极客清风</p>
+<p>基本上接触过网络相关知识的人应该多少都会听过 DNS 这个名词。因为 DNS 它非常重要，在我们上网的过程中扮演着重要的角色——“将网址/域名解析成 IP 地址”。</p>
+<p>如果配置了不合理的 DNS 服务器，可能会导致网速缓慢、打不开网站;一些恶意的 DNS 还会让你电脑出现弹窗广告、网站被劫持修改 (中间人攻击)、监听等等一系列的安全问题。因此为了高速稳定上网，小编搜集了目前全球范围内可靠的免费公共 DNS 服务地址……</p>
+<p>针对DNS的问题，今天我们就来总结一下，看看哪个DNS服务器最好用!注意：本测试仅通过奇云测对服务器进行综合测试，具体使用情况请以用户本地为主。</p>
+<p>建议使用ISP默认分配的DNS，只有在特别需要的情况下再使用公共DNS。</p>
+<p>在使用下面的 DNS IP 之前，先通过 ping 命令，测试一下连通性。一般国内使用我提供的几个 DNS 服务器都可以，如果身处国外的话建议选择国外的公共 DNS 服务器。另外经过测试，114DNS、百度 DNS、腾讯 DNS 在国外大部分地区都可以使用，而 Alidns 很多地区连通性不好。</p>
+<p>IPv6 虽然是未来的趋势，但是现在 IPv6 的公共 DNS 服务器并不多，特别是国内暂时没有商业公司提供 IPv6 DNS 服务，所以选取了教育网以及国家的公共 DNS 服务器IP。</p>
+<p>公共dns的ip（IPv6 DNS服务器）</p>
+<p>以下收集的都是目前全球范围内 (更多数是国内的) 比较靠谱的免费公共 DNS 服务的 IP 地址。由于地区差异，同一组 DNS 服务器在不同国家不同地区的表现并不完全相同，解析速度、响应时间等都有所区别，所以建议大家以自行测速结果为准，多多对比再行选择咯。</p>
+<p>★ DNSPod Public DNS</p>
+<p>Public DNS 是属于 腾讯云旗下的公共 DNS 服务。拥有 80 多条国内线路和 4 条海外线路，有 BGP Anycast 技术，也是国内首家支持谷歌 ECS (edns-client-subnet) 协议的公共 DNS 解析服务。它只使用一个 IP，但有三地集群容灾和秒级自动故障切换，在国内大多数地方的测速数据都非常好，值得推荐。</p>
+<p>Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：119.29.29.29</p>
+<p>★ AliDNS 阿里公共 DNS 解析服务</p>
+<p>阿里公共 DNS 是 阿里云 推出的免费 DNS 递归解析系统，宣称全球数百台服务器组成的集群，拥有充足的带宽资源，目标是成为国内互联网基础设施的组成部分，支持 BGP Anycast 以及 ECS 技术。</p>
+<p>AliDNS 阿里公共 DNS</p>
+<p>IPv4 地址</p>
+<p>首选：223.5.5.5</p>
+<p>备用：223.6.6.6</p>
+<p>★ 114 DNS</p>
+<p>114 DNS 在国内的用户量相当巨大，其 DNS 解析成功率高，与 ISP 的 DNS 相比，能访问更多的国内外网站;号称纯净、无劫持、无需再忍受被强插广告或粗俗网站之痛苦;114DNS 做得比较早，有一定的技术积累，稳定性不错，尽管速度比前两者差一点点，但也都能让人满意。它还有一个特色，就是根据不同用途可以选择不同的 DNS 组。</p>
+<p>114 DNS</p>
+<p>常规公共 DNS (干净无劫持)</p>
+<p>首选：114.114.114.114 、备选：114.114.115.115</p>
+<p>拦截钓鱼病毒木马网站 (保护上网安全)</p>
+<p>首选：114.114.114.119、备用：114.114.115.119</p>
+<p>拦截色情网站 (保护儿童)</p>
+<p>首选：114.114.114.110、备用：114.114.115.110</p>
+<p>★ 百度 BaiduDNS</p>
+<p>百度 DNS 公共解析服务，支持 ipv4 和 ipv6。作为中国最大的搜索引擎，百度拥有一流的基础设施和强大技术实力，国内速度相当快!该服务快速稳定无劫持，智能拦截恶意网站，支持 BGP Anycast 和 ECS 技术。</p>
+<p>百度 BaiduDNS</p>
+<p>IPv4 地址：180.76.76.76</p>
+<p>IPv6 地址：2400:da00::6666</p>
+<p>360 DNS 派 (DNSpai Public DNS)</p>
+<p>DNS 派是由 360 出品的免费公众 DNS 解析服务。它可以让网上冲浪更加稳定、快速、安全;为家庭拦截钓鱼网站，过滤非法网站，建立一个绿色健康的网上环境;为域名拼写自动纠错等。</p>
+<p>DNS 派</p>
+<p>首选(电信/移动/铁通)：101.226.4.6</p>
+<p>备选(电信/移动/铁通)：218.30.118.6</p>
+<p>首选(联通)：123.125.81.6</p>
+<p>备选(联通)：140.207.198.6</p>
+<p>CNNIC sDNS</p>
+<p>sDNS (SecureDNS，简称 sDNS) 是由中国互联网络信息中心 CNNIC 与国内外电信运营商合作推出的免费公共云解析服务，旨在为用户提供高速、安全、智能的上网接入解析服务。sDNS递归云解析服务采用 IP Anycast BGP 技术跨区域、跨运营商的分布式异构部署，比运营商提供的 DNS 更快更稳定。</p>
+<p>CNNIC sDNS</p>
+<p>IPv4 地址</p>
+<p>首选：1.2.4.8</p>
+<p>备用：210.2.4.8</p>
+<p>OneDNS</p>
+<p>OneDNS 是一个安全、快速、免费的小众 DNS 服务。它能屏蔽恶意网站、摆脱无良 ISP 的DNS污染与劫持。同时横跨南北的高速线路加速您的网络连接。</p>
+<p>OneDNS</p>
+<p>IPv4 地址</p>
+<p>首选：117.50.11.11</p>
+<p>备用：117.50.22.22</p>
+<p>国外 (美国) 免费公共 DNS 解析服务推荐：</p>
+<p>顾名思义，国外的 DNS 当然是适合海外用户使用咯。而对于国内用户来说，尽管这些 DNS 服务器在国内访问速度不算快，但作用也不少，比如买了国外的 VPS 来搭建番·羽·土·啬相关的应用时，可以配置它使用国外的 DNS 等等。</p>
+<p>★ Google Public DNS (8.8.8.8)</p>
+<p>来自 Google 提供的免费全球公共 DNS 服务，主要为了改进网络浏览速度、改善网络用户的浏览体验。这个基本上不用多做什么介绍了，可能它也是目前全球范围内使用量最大的公共 DNS 了，老牌、稳定、技术强劲。</p>
+<p>Google Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：8.8.8.8</p>
+<p>备用：8.8.4.4</p>
+<p>IPv6 地址</p>
+<p>首选：2001:4860:4860::8888</p>
+<p>备用：2001:4860:4860::8844</p>
+<p>★ CloudFlare DNS (1.1.1.1)</p>
+<p>CloudFlare DNS 是号称全球最快的 DNS 服务 (当然天朝不算在全球范围内 &gt;_&lt;)， CloudFlare 是全球最大的 CDN / DDOS 防护服务提供商之一 (在国内与百度云加速合作)，其遍布全球的基础设施资源极其丰富，资金和技术实力相当雄厚。在国外实测速度相当强劲，目前我已将海外的 VPS全部换到此 DNS，解析速度非常快，相当值得推荐!</p>
+<p>CloudFlare DNS</p>
+<p>IPv4 地址</p>
+<p>首选：1.1.1.1</p>
+<p>备用：1.0.0.1</p>
+<p>IPv6 地址：</p>
+<p>首选：2606:4700:4700::1111</p>
+<p>备用：2606:4700:4700::1001</p>
+<p>IBM Quad9 (9.9.9.9)</p>
+<p>IBM 、Global Cyber Alliance 和 Packet Clearing House 合作推出的免费 Quad9 公共 DNS 服务 (9.9.9.9)，主打安全，它会智能屏蔽恶意网址、僵尸网络、钓鱼攻击和其它恶意主机相关联的域名，而且更注重隐私保护。对安全有需求的朋友可以使用这组 DNS。</p>
+<p>IBM Quad9</p>
+<p>IPv4 地址</p>
+<p>首选：9.9.9.9</p>
+<p>备用：149.112.112.112</p>
+<p>IPv6 地址</p>
+<p>首选：2620:fe::fe</p>
+<p>备用：2620:fe::9</p>
+<p>Cisco OpenDNS</p>
+<p>OpenDNS 是一个老牌的免费公共 DNS 提供商，后来被 Cisco (思科) 全资收购。</p>
+<p>OpenDNS</p>
+<p>IPv4 地址</p>
+<p>首选：208.67.222.222</p>
+<p>备用：208.67.220.220</p>
+<p>IPv6 地址</p>
+<p>首选：2620:0:ccc::2</p>
+<p>备用：2620:0:ccd::2</p>
+<p>Hurricane Electric Public DNS (HE)</p>
+<p>HE Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：74.82.42.42</p>
+<p>备用：66.220.18.42</p>
+<p>IPv6 地址</p>
+<p>首选：2001:470:20::2</p>
+<p>备用：2001:470:0:9d::2</p>
+<p>科摩多 Comodo SecureDNS</p>
+<p>科摩多公共 DNS 服务</p>
+<p>IPv4 地址</p>
+<p>首选：8.26.56.26</p>
+<p>备用：8.20.247.20</p>
+<p>Verisign Public DNS</p>
+<p>Verisign Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：64.6.64.6</p>
+<p>备用：64.6.65.6</p>
+<p>IPv6 地址</p>
+<p>首选：2620:74:1b::1:1</p>
+<p>备用：2620:74:1c::2:2</p>
+<p>Neustar Recursive DNS</p>
+<p>Neustar Recursive DNS</p>
+<p>IPv4 地址</p>
+<p>首选：156.154.70.1</p>
+<p>备用：156.154.71.1</p>
+<p>IPv6 地址</p>
+<p>首选：2610:a1:1018::1</p>
+<p>备用：2610:a1:1019::1</p>
+<p>ORACLE Dyn Public DNS</p>
+<p>Dyn Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：216.146.36.36</p>
+<p>备用：216.146.35.35</p>
+<p>Level3 Public DNS</p>
+<p>Level3 Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：209.244.0.3</p>
+<p>备用：209.244.0.4</p>
+<p>Alternate DNS</p>
+<p>Alternate DNS</p>
+<p>IPv4 地址</p>
+<p>首选：23.253.163.53</p>
+<p>备用：198.101.242.72</p>
+<p>香港地区公共 DNS 解析服务</p>
+<p>香港宽频 / HKBN</p>
+<p>香港宽频 DNS</p>
+<p>IPv4 地址</p>
+<p>首选：203.80.96.10</p>
+<p>和记环球电讯 DNS</p>
+<p>和记环球电讯 DNS</p>
+<p>IPv4 地址</p>
+<p>首选：202.45.84.58</p>
+<p>备用：202.45.84.59</p>
+<p>Pacific SuperNet DNS</p>
+<p>Pacific SuperNet DNS</p>
+<p>IPv4 地址</p>
+<p>首选：202.14.67.4</p>
+<p>备用：202.14.67.14</p>
+<p>台湾地区公共 DNS 解析服务</p>
+<p>中华电信 / HiNet</p>
+<p>中华电信公共 DNS</p>
+<p>IPv4 地址</p>
+<p>首选：168.95.1.1</p>
+<p>备用：168.95.192.1</p>
+<p>IPv6 地址</p>
+<p>首选：2001:b000:168::1</p>
+<p>备用：2001:b000:168::2</p>
+<p>数位联合电信 / Seednet</p>
+<p>数位联合电信 DNS</p>
+<p>IPv4 地址</p>
+<p>首选：139.175.252.16</p>
+<p>备用：139.175.55.244</p>
+<p>台湾网路资讯/ TWNIC Quad101 Public DNS</p>
+<p>台湾网路资讯 TWNIC Quad101 Public DNS</p>
+<p>首选：101.101.101.101</p>
+<p>备用：101.102.103.104</p>
+<p>IPv6 地址</p>
+<p>首选：2001:de4::101</p>
+<p>备用：2001:de4::102</p>
+<p>韩国免费公共 DNS 解析服务推荐：</p>
+<p>KT olleh</p>
+<p>KT olleh DNS</p>
+<p>IPv4 地址：</p>
+<p>首选：168.126.63.1</p>
+<p>备用：168.126.63.2</p>
+<p>SK Broadband</p>
+<p>SK Broadband DNS</p>
+<p>首选：210.220.163.82</p>
+<p>备用：219.250.36.130</p>
+<p>LG U</p>
+<p>LG U DNS</p>
+<p>两者二选一</p>
+<p>首选：164.124.101.2</p>
+<p>备用：203.248.252.2</p>
+<p>首选：164.124.107.9</p>
+<p>备用：203.248.242.2</p>
+<p>其他国家地区公共 DNS 解析服务：</p>
+<p>俄罗斯 Yandex Public DNS</p>
+<p>俄罗斯 Yandex Public DNS</p>
+<p>IPv4 地址</p>
+<p>首选：77.88.8.8</p>
+<p>备用：77.88.8.1</p>
+<!-- more -->
+<p>IPv6 地址</p>
+<p>首选：2a02:6b8::feed:0ff</p>
+<p>备用：2a02:6b8:0:1::feed:0ff</p>
+<p>俄罗斯 SafeDNS</p>
+<p>俄罗斯 SafeDNS</p>
+<p>IPv4 地址🐧</p>
+<p>首选：195.46.39.39</p>
+<p>备用：195.46.39.40</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://wendy-code.cn/post/zai-xu-ji-virtualbox-an-zhuang-androidx86-xi-tong-xiang-xi-bu-zou-yao-dian/">
+                  <h3 class="post-title">
+                    在虚机VirtualBox安装Androidx86系统详细步骤要点
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>

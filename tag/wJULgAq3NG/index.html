@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>Gridea | Wendy Network</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wendy-code.cn/favicon.ico?v=1731427799579">
+<link rel="stylesheet" href="https://wendy-code.cn/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="温故而知新">
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://wendy-code.cn">
+        <img src="https://wendy-code.cn/images/avatar.png?v=1731427799579" class="site-logo">
+        <h1 class="site-title">Wendy Network</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/Wendy8Wendy" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wendy-code.cn/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: Gridea</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://wendy-code.cn/post/hello-gridea/">
+                  <h2 class="post-title">命令备忘（Linux）</h2>
+                </a>
+                <div class="post-date">
+                  2018-12-12
+                </div>
+                <div class="post-abstract">
+                  <p>👏   <strong>DNS</strong> ！</p>
+<h1 id="阿里云ipv4-dns">阿里云IPV4 DNS</h1>
+<p>223.5.5.5<br>
+223.6.6.6</p>
+<h1 id="阿里云ipv6-dns">阿里云IPV6 DNS</h1>
+<p>2400:3200::1<br>
+2400:3200:baba::1</p>
+<h1 id="百度云ipv4-dns">百度云IPV4 DNS</h1>
+<p>180.76.76.76</p>
+<h1 id="百度云ipv6-dns">百度云IPV6 DNS</h1>
+<p>2400:da00::6666</p>
+<h1 id="腾讯ipv4-dns">腾讯IPV4 DNS</h1>
+<p>119.29.29.29<br>
+182.254.116.116</p>
+<h1 id="114d-ipv4-dns">114D IPV4 DNS</h1>
+<p>114.114.114.114<br>
+114.114.115.115</p>
+<h1 id="114-ipv6-dns">114 IPV6 DNS</h1>
+<p>2001:dc7:1000::1</p>
+<h1 id="天翼云中国电信dns部分地区的首选">天翼云（中国电信）DNS：部分地区的首选</h1>
+<p>101.226.4.6</p>
+<h1 id="谷歌ipv4-dns">谷歌IPV4 DNS</h1>
+<p>8.8.8.8<br>
+8.8.4.4</p>
+<h1 id="谷歌ipv6-dns">谷歌IPV6 DNS</h1>
+<p>2001:4860:4860::8888<br>
+2001:4860:4860::8844</p>
+<h1 id="opendns-ipv4">OpenDNS IPV4</h1>
+<p>208.67.222.222<br>
+208.67.220.220</p>
+
+                </div>
+              </div>
+              
+                <a class="right" href="https://wendy-code.cn/post/hello-gridea/">
+                  <div class="feature-container" style="background-image: url('https://wendy-code.cn/post-images/hello-gridea.png')">
+                  </div>
+                </a>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
