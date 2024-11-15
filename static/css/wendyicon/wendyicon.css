@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?unbv5s');
+  src:  url('fonts/icomoon.eot?unbv5s#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?unbv5s') format('truetype'),
+    url('fonts/icomoon.woff?unbv5s') format('woff'),
+    url('fonts/icomoon.svg?unbv5s#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git_lab_fill:before {
+  content: "\e900";
+  color: #09244b;
+}
+.icon-git_lab_line:before {
+  content: "\e901";
+  color: #09244b;
+}
+.icon-github_2_fill:before {
+  content: "\e902";
+  color: #09244b;
+}
+.icon-github_2_line:before {
+  content: "\e903";
+  color: #09244b;
+}
+.icon-github_fill:before {
+  content: "\e904";
+  color: #09244b;
+}
+.icon-github_line:before {
+  content: "\e905";
+  color: #09244b;
+}
+.icon-mikrotik-logo:before {
+  content: "\e906";
+  color: #676867;
+}
+.icon-mikrotik-logo-v7:before {
+  content: "\e907";
+}
+.icon-telegram_fill:before {
+  content: "\e908";
+  color: #09244b;
+}
+.icon-telegram_line:before {
+  content: "\e909";
+  color: #09244b;
+}
+.icon-unifi:before {
+  content: "\e90a";
+  color: #b7bcc2;
+}
+.icon-wendy:before {
+  content: "\e90b";
+}

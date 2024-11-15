@@ -1,0 +1,81 @@
+/* Tomorrow Night Eighties Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* css88 0.1*/
+.prettyprint, pre.prettyprint {
+    background-color: #444444 !important;
+    border: 1px solid #272822 !important;
+    overflow: hidden !important;
+    padding: 0px !important;
+    margin: 20px 0 !important;
+    font: 14px/20px 'courier new' !important;
+    color: #666 !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+}
+ 
+.prettyprint.linenums,
+pre.prettyprint.linenums {
+    -webkit-box-shadow: inset 40px 0 0 #39382E, inset 41px 0 0 #464741 !important;
+    -moz-box-shadow: inset 40px 0 0 #39382E, inset 41px 0 0 #464741 !important;
+    box-shadow: inset 40px 0 0 #39382E, inset 41px 0 0 #464741 !important;
+}
+ 
+.prettyprint.linenums ol,
+pre.prettyprint.linenums ol {
+    margin: 0 0 0 33px !important;
+}
+ 
+.prettyprint.linenums ol li,
+pre.prettyprint.linenums ol li {
+    padding-left: 12px !important;
+    color: #bebec5 !important;
+    line-height: 20px !important;
+    margin-left: 0 !important;
+    list-style: decimal !important;
+}
+ 
+.prettyprint ol.linenums {
+    margin-bottom: 0 !important; /*margin-bottom: -8px; margin-top:-8px; margin-right: -8px; position:relative;*/
+    background-color: #272822 !important;
+    padding: 8px !important
+}
+ 
+.prettyprint .com {
+    color: #93a1a1 !important;
+}
+ 
+.prettyprint .lit {
+    color: #AE81FF !important;
+}
+ 
+.prettyprint .pun,
+.prettyprint .opn,
+.prettyprint .clo {
+    color: #F8F8F2 !important;
+}
+ 
+.prettyprint .fun {
+    color: #dc322f !important;
+}
+ 
+.prettyprint .str,
+.prettyprint .atv {
+    color: #E6DB74 !important;
+}
+ 
+.prettyprint .kwd,
+.prettyprint .tag {
+    color: #F92659 !important;
+}
+ 
+.prettyprint .typ,
+.prettyprint .atn,
+.prettyprint .dec,
+.prettyprint .var {
+    color: #A6E22E !important;
+}
+ 
+.prettyprint .pln {
+    color: #66D9EF !important;
+}

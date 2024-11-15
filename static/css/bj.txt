@@ -1,0 +1,5 @@
+material-dashboard.css:1541
+  background-image: url('/images/background/4k1.jpeg');
+  /* background-size: cover; /* 背景图片覆盖整个容器 */
+  /* background-repeat: no-repeat; 背景图片不重复 */
+  /* opacity: 1.5; /* 背景图片透明度 */

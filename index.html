@@ -1,79 +1,161 @@
-<!DOCTYPE html>
-<html lang="zh">
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/png" href="https://wendy-blog.github.io/link/images/logo.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<head>
-    <link rel="shortcut icon" href="./assets/images/favicon.png">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8550836177608334",
-        enable_page_level_ads: true
-    });
-    </script>
-    <meta charset="UTF-8">
-    <title>WebStack.cc - 设计师网址导航</title>
-    <script>
-    if (navigator.appName == "Netscape") {
-        var language = navigator.language;
-    } else {
-        var language = navigator.browserLanguage;
+	<meta name="keywords" content="Wendy Network">
+	<meta name="description" content="文迪网络运维"> 
+	<meta name="description" content="文迪网络运维，VPN服务"> 
+	<meta name="author" content="">
+	<meta name="copyright" content="">
 
-    }
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="viewport" content="width=device-width">
+    <!-- Bootstrap core CSS     -->
+    <link href="https://wendy-blog.github.io/link/css/bootstrap.min.css" rel="stylesheet">
 
-    if (language.indexOf("en") > -1) {
-        document.location.href = "en/index.html";
-    } else if (language.indexOf("zh") > -1) {
-        document.location.href = "cn/index.html";
-    } else {
-        document.location.href = "en/index.html";
+    <!--  Material Dashboard CSS    -->
+    <link href="https://wendy-blog.github.io/link/css/wendy01.css" rel="stylesheet">
 
-    }
-    </script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="viggo" />
-    <title>WebStack.cc - Collection of resources and tools for Designers</title>
-    <meta name="keywords" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,UX师网址导航,www.webstack.cc">
-    <meta name="description" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    
-    <!-- / FB Open Graph -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="http://www.webstack.cc/">
-    <meta property="og:title" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <meta property="og:description" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,UX师网址导航,www.webstack.cc">
-    <meta property="og:image" content="http://www.webstack.cc/assets/images/webstack_banner_cn.png">
-    <meta property="og:site_name" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <!-- / Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、Resources网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <meta name="twitter:description" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,UX师网址导航,www.webstack.cc">
-    <meta name="twitter:image" content="http://www.webstack.cc/assets/images/webstack_banner_cn.png">
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <!--  link href="static/css/demo.css" rel="stylesheet"-->
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="static/css/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="static/css/font-awesome-4.7.0/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="static/css/font-awesome-4.7.0.css" type="text/css">
+    <link rel="stylesheet" href="static/css/wendyicon/wendyicon.css" type="text/css">
+    <!--link rel="stylesheet" href="https://i.icomoon.io/public/temp/c49afffa8d/UntitledProject/style.css"-->
 </head>
-
 <body>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111463289-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
+	<div class="wrapper">
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+	    <div class="sidebar" data-color="purple" data-image="404.png">
+			<!--
+		        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
-    gtag('config', 'UA-111463289-1');
-    </script>
-</body>
+		        Tip 2: you can also add an image using data-image tag
+		    -->
 
+			<div class="logo">
+			<a href="https://wp.wendy-ip.com/" target="right" class="simple-text"><img src="/favicon.ico " width="30" height="30"> 文迪网络运维</a>
+			</div>
+
+	    	<div class="sidebar-wrapper">
+	            <ul class="nav">
+				<li class="active">
+	                    <a href="https://wp.wendy-ip.com/" target="right">
+	                        <i class="fa fa-home" style="font-size:28px"></i>
+	                        <p>主 页</p>
+	                    </a>
+	                </li> 
+	                <li>
+	                    <a href="link/1/" target="right">
+	                        <i class="fa fa-mortar-board" style="font-size:28px"></i>
+	                        <p>资 源 分 享</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="link/2/" target="right">
+	                        <i class="fa fa-reddit-alien" style="font-size:28px"></i>
+	                        <p>其 他 链 接</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="link/3/" target="right">
+	                        <i class="fa fa-rocket" style="font-size:28px"></i>
+	                        <p>在线工具箱</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="link/4/" target="right">
+	                        <i class="fa fa-houzz" style="font-size:28px"></i>
+	                        <p>在 线 调 试</p>
+	                    </a>
+	                </li>    
+					<li>
+	                    <a href="link/5/" target="right">
+	                        <i class="fa fa-modx" style="font-size:28px"></i>
+	                        <p>服务器地址</p>
+	                    </a>
+	                </li>
+					<li>
+	                    <a href="link/6/" target="right">
+	                        <i class="icon-mikrotik-logo" style="font-size:8px"></i>
+	                        <!--span class="icon-mikrotik-logo"></span-->
+	                        <p> 软路由教程</p>
+	                    </a>
+	                </li>         
+	                <li>
+	                    <a href="link/wendytools/" target="right">
+	                        <i class="icon-wendy" style="font-size:28px"></i>
+	                        <p> Wendy Tools</p>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="https://wendy-blog.github.io/link/games/" target="_blank">
+	                        <i class="fa fa-play" style="font-size:28px"></i>
+	                        <p>娱 乐 专 区</p>
+	                    </a>
+	                </li> 
+					</ul>
+			</div>
+	    <div class="sidebar-background" style="background-image: url(/static/images/404.jpg) "></div></div>
+
+	    <div class="main-panel">
+			<nav class="navbar navbar-transparent navbar-absolute" style="background-color: #fff;">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse">
+							<span class="sr-only">切换导航</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="link/index.html" class="dropdown-toggle" target="right">
+									<i class="fa fa-windows"></i>
+									<p class="hidden-lg hidden-md">关于我们</p>
+								</a>
+							</li>							
+						</ul>					
+					</div>
+				</div>
+			</nav>
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row" style="margin-top: -15px;">
+						
+				
+						<iframe src="https://wp.wendy-ip.com/" width="100%" height="999" name="right" style="border: none;"></iframe>				
+				</div>
+			</div>		
+		</div>
+	</div>
+
+	
+	<script src="https://wendy-blog.github.io/link/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+	<script src="https://wendy-blog.github.io/link/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://wendy-blog.github.io/link/js/material.min.js" type="text/javascript"></script>
+	<!--  Charts Plugin -->
+	<script src="https://wendy-blog.github.io/link/js/chartist.min.js"></script>
+	<script src="https://wendy-blog.github.io/link/js/material-dashboard.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+
+$(".nav li").click(function(){
+	
+	$(".nav li").removeClass("active");
+	$(this).addClass("active");
+	
+})
+
+			// Javascript method's body can be found in assets/js/demos.js
+
+    	});
+	</script>
+</div><qk-ai-extension></qk-ai-extension>
+</body><!--   Core JS Files   -->
 </html>
