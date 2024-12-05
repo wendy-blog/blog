@@ -1,3 +1,31 @@
+<html lang="zh-cn" version="4">
+<head>
+<style>
+body {
+background-image: url('https://wendy-ip.com/imgs/bj/bg1.png');
+background-size: cover; /* 背景图片覆盖整个容器 */
+/* background-repeat: no-repeat; 背景图片不重复 */
+opacity: 1.5; /* 背景图片透明度 */
+}</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MikroTik RouterOS 简单指引</title>
+    <link rel="icon" href="https://wendy-ip.com/mikrotik/mikrotik-logo-v7.svg" sizes="32x32">
+    <link href="https://wendy-ip.com/css/wendylist.css?t=1677676382" rel="stylesheet" type="text/css">
+    <link href="https://wendy-ip.com/css/markdown.css?t=1677676382" rel="stylesheet" type="text/css">
+    <script src="https://wendy-ip.com/js/jquery.min.3.5.1.js?v=1677676382"></script>
+    <div>    
+<style>.__copy-button{align-items:center;background:#4c98f7;border-radius:3px;color:#fff;cursor:pointer;display:flex;font-size:auto;height:30px;justify-content:center;opacity:0;position:absolute;transition:opacity .3s;width:60px;z-index:-1000}</style></div><div><style>#select-tooltip,#sfModal,.modal-backdrop,div[id^=reader-helper]{display:none!important}.modal-open{overflow:auto!important}._sf_adjust_body{padding-right:0!important}</style></div><style>*{user-select: auto !important;-webkit-user-select: auto !important;}</style><style id="ai-assist-right-style">
+    html.ai-assist-html {
+      width: calc(100% - 480px)!important;
+      position: relative!important;
+      min-height: 100vh!important
+    }
+    .ai-assist-highlight {
+      background: yellow;
+    }
+  </style></head>
+
 <body>
     <main class="container blog-container">
         <div class="row">
@@ -12,23 +40,20 @@
 <p>手机连接后可在WIFI设置里查看路由器分配的内网IP地址。</p>
 <h3>手机端内网IP查看方法</h3>
 <h3>1</h3>
-<p><a sourcesrc="https://wdros.wendy-ip.com/img/9afb1720137857.png"><img src="https://wdros.wendy-ip.com/img/9afb1720137857.png" alt="" data-action="zoom"></a></p>
+<p><a sourcesrc="https://wendy-ip.com/wendyrouteros/ap/ap1.jpg"><img src="https://wendy-ip.com/wendyrouteros/ap/ap1.jpg" alt="" data-action="zoom"></a></p>
 <h3>2</h3>
-<p><a sourcesrc="https://wdros.wendy-ip.com/img/aae01720137937.png"><img src="https://wdros.wendy-ip.com/img/aae01720137937.png" alt="" data-action="zoom"></a></p>
+<p><a sourcesrc="https://wendy-ip.com/wendyrouteros/ap/ap2.jpg"><img src="https://wendy-ip.com/wendyrouteros/ap/ap2.jpg" alt="" data-action="zoom"></a></p>
 <h3>路由器后台查看内网IP查看方法</h3>
-<p><h3>使用电脑打开浏览器（电脑必须使用软路由的网络！）
-<br>地址栏输入下方地址或直接点击</h3><br>
+<p>使用电脑打开浏览器（电脑必须使用软路由的网络！）
+<br><h3>地址栏输入下方地址或直接点击</h3><br>
 <a href="http://router.lan" title="后台入口1(http://router.lan)">后台入口1(http://router.lan)</a><br>
-<pre>http://router.lan</pre>
 <a href="http://ros-lan.wendy-ip.com" title="后台入口2(http://ros-lan.wendy-ip.com)">后台入口2(http://ros-lan.wendy-ip.com)</a><br>
-<pre>http://ros-lan.wendy-ip.com</pre>
 <a href="http://192.168.88.1" title="后台入口3(http://192.168.88.1)">后台入口3(http://192.168.88.1)</a><br>
-<pre>http://192.168.88.1</pre>
-<a sourcesrc="https://wdros.wendy-ip.com/img/d18d1720138117.jpeg"><img src="https://wdros.wendy-ip.com/img/d18d1720138117.jpeg" alt="" data-action="zoom"></a></p>
+<a sourcesrc="https://wendy-ip.com/wendyrouteros/ap/ap3.jpg"><img src="https://wendy-ip.com/wendyrouteros/ap/ap3.jpg" alt="" data-action="zoom"></a></p>
 <h3>手机在成功连接后手机上显示的IP地址和后台显示的地址必定定是一致的</h3>
 <h1>IP设置</h1>
 <p>点开VPN/拨号设置<br>
-<a sourcesrc="https://wdros.wendy-ip.com/img/ea651720138263.jpg"><img src="https://wdros.wendy-ip.com/img/ea651720138263.jpg" alt="" data-action="zoom"></a></p>
+<a sourcesrc="https://wendy-ip.com/wendyrouteros/ap/ap4.jpg"><img src="https://wendy-ip.com/wendyrouteros/ap/ap4.jpg" alt="" data-action="zoom"></a></p>
 <h4>每一个接口可设置单独IP</h4>
 <h4>内网IP地址与VPN接口编号绑定</h4>
 <h3>示例：</h3>
@@ -36,7 +61,7 @@
 <h3>10.10.10.2=VPN_2</h3>
 <h3>10.10.10.3=VPN_3</h3>
 <h3>...以此类推。。。</h3>
-<p><a sourcesrc="https://wdros.wendy-ip.com/img/2ba11720139074.jpeg"><img src="https://wdros.wendy-ip.com/img/2ba11720139074.jpeg" alt="" data-action="zoom"></a></p>
+<p><a sourcesrc="https://wendy-ip.com/wendyrouteros/ap/wifi1.jpeg"><img src="https://wendy-ip.com/wendyrouteros/ap/wifi1.jpeg" alt="" data-action="zoom"></a></p>
 <h1>内网IP和VPN接口的关系:内网IP位数=VPN接口编号</h1></div>
                                 <div class="loglist-tag"></div>
                             </div>
@@ -50,3 +75,7 @@
 			        </div>
     </main>
 </footer>
+<script src="https://wendy-ip.com/js/common_tpl.js?t=1677676382"></script>
+
+<script src="https://wendy-ip.com/js/zoom.js?t=1677676382"></script>
+</div></html>

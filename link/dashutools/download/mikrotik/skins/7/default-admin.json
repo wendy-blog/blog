@@ -1,0 +1,1815 @@
+{
+    "CAPsMAN": 0,
+    "Wireless": {
+        "name": "无线局域网",
+        "CAP": 0,
+        "Virtual": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "WDS": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "WPS Client": 0,
+        "Setup Repeater": 0,
+        "Scanner": 0,
+        "Freq. Usage": 0,
+        "Alignment": 0,
+        "Wireless Sniffer": 0,
+        "Wireless Snooper": 0,
+        "Align": 0,
+        "W60G Station": 0,
+        "Nstreme Dual": 0,
+        "Access List": 0,
+        "Registration": 0,
+        "Connect List": 0,
+        "Security Profiles": {
+            "&": {
+                "set": {
+                    "name": "应用并返回"
+                },
+                "remove": 0,
+                "cancel": {
+                    "name": "取消并返回"
+                },
+                "apply": {
+                    "name": "应用"
+                }
+            },
+            "General": {
+                "Name": 0,
+                "Mode": 0,
+                "Authentication Types": 0,
+                "Unicast Ciphers": 0,
+                "Group Ciphers": 0,
+                "WPA Pre-Shared Key": {
+                    "name": "请输入密码"
+                },
+                "WPA2 Pre-Shared Key": {
+                    "name": "确认密码"
+                },
+                "Supplicant Identity": 0,
+                "Group Key Update": 0,
+                "Management Protection": 0,
+                "Management Protection Key": 0,
+                "Disable PMKID": 0
+            },
+            "RADIUS": {
+                "MAC Authentication": 0,
+                "MAC Accounting": 0,
+                "EAP Accounting": 0,
+                "Interim Update": 0,
+                "MAC Format": 0,
+                "MAC Mode": 0,
+                "Called ID Format": 0,
+                "MAC Caching Time": 0
+            },
+            "EAP": {
+                "EAP Methods": 0,
+                "TLS Mode": 0,
+                "TLS Certificate": 0,
+                "MSCHAPv2 Username": 0,
+                "MSCHAPv2 Password": 0
+            },
+            "Static Keys": {
+                "Transmit Key": 0,
+                "Key 0": 0,
+                "Key 1": 0,
+                "Key 2": 0,
+                "Key 3": 0,
+                "St. Private Key": 0
+            }
+        },
+        "Channels": 0,
+        "Interworking Profiles": 0,
+        "Wireless (IPQ4019)": {
+            "&": {
+                "set": {
+                    "name": "应用并返回"
+                },
+                "cancel": {
+                    "name": "取消并返回"
+                },
+                "apply": {
+                    "name": "应用"
+                }
+            },
+            "General": {
+                "Name": {
+                    "name": "接口名字"
+                },
+                "Type": 0,
+                "MTU": 0,
+                "Actual MTU": 0,
+                "L2 MTU": 0,
+                "MAC Address": 0,
+                "ARP": 0,
+                "ARP Timeout": 0
+            },
+            "Simple Mode": 0,
+            "Wireless": {
+                "Mode": 0,
+                "Band": 0,
+                "Channel Width": 0,
+                "Frequency": 0,
+                "SSID": {
+                    "name": "WiFi名称"
+                },
+                "Security Profile": 0,
+                "WPS Mode": 0,
+                "Frequency Mode": 0,
+                "Country": 0,
+                "Installation": 0,
+                "Default AP Tx Limit": 0,
+                "Default Client Tx Limit": 0,
+                "Default Authenticate": 0,
+                "Default Forward": 0,
+                "Hide SSID": {
+                    "name": "隐藏WiFi"
+                }
+            },
+            "Distance": 0,
+            "HT": {
+                "Tx Chains": 0,
+                "Rx Chains": 0,
+                "AMSDU Limit": 0,
+                "AMSDU Threshold": 0,
+                "Guard Interval": 0,
+                "AMPDU Priorities": 0
+            },
+            "HT Supported MCS": 0,
+            "HT Basic MCS": 0,
+            "WDS": {
+                "WDS Mode": 0,
+                "WDS Default Bridge": 0,
+                "WDS Ignore SSID": 0
+            },
+            "Nstreme": {
+                "Enable Nstreme": 0,
+                "Enable Polling": 0,
+                "Disable CSMA": 0,
+                "Framer Policy": 0,
+                "Framer Limit": 0
+            },
+            "WPS Accept": 0,
+            "WPS Client": 0,
+            "Setup Repeater": 0,
+            "Scan...": 0,
+            "Freq. Usage...": 0,
+            "Align...": 0,
+            "Sniff...": 0,
+            "Snooper...": 0,
+            "Reset Configuration": 0,
+            "Status": {
+                "Last Link Down Time": 0,
+                "Last Link Up Time": 0,
+                "Link Downs": 0
+            },
+            "Channel": 0,
+            "Noise Floor": 0,
+            "Overall Tx CCQ": 0,
+            "Registered Clients": 0,
+            "Authenticated Clients": 0,
+            "Traffic": {
+                "Tx/Rx Rate": 0,
+                "Tx/Rx Packet Rate": 0,
+                "FP Tx/Rx Rate": 0,
+                "FP Tx/Rx Packet Rate": 0,
+                "Tx/Rx Bytes": 0,
+                "Tx/Rx Packets": 0,
+                "Tx/Rx Drops": 0,
+                "Tx/Rx Errors": 0,
+                "Byte Graph": 0,
+                "Packet Graph": 0
+            },
+            "Torch": 0,
+            "Enabled": {
+                "name": "启用"
+            },
+            "Comment": {
+                "name": "备注"
+            }
+        },
+        "CAPsMAN": 0,
+        "Wireless": {
+            "CAP": 0,
+            "WPS Client": 0,
+            "Setup Repeater": 0,
+            "Scanner": 0,
+            "Freq. Usage": 0,
+            "Alignment": 0,
+            "Wireless Sniffer": 0,
+            "Wireless Snooper": 0,
+            "Align": 0,
+            "W60G Station": 0,
+            "Nstreme Dual": 0,
+            "Access List": 0,
+            "Registration": {
+                "&": {
+                    "remove": 0,
+                    "cancel": {
+                        "name": "返回"
+                    }
+                },
+                "General": {
+                    "Radio Name": 0,
+                    "MAC Address": {
+                        "name": "MAC 地址"
+                    },
+                    "Interface": {
+                        "name": "连接接口"
+                    },
+                    "Host Name": 0,
+                    "Uptime": {
+                        "name": "在线时长"
+                    },
+                    "Distance": 0,
+                    "RouterOS Version": 0,
+                    "AP Tx Limit": 0,
+                    "Client Tx Limit": 0,
+                    "Last IP": {
+                        "name": "IP地址",
+                        "separator": 0
+                    },
+                    "AP": 0,
+                    "WDS": 0,
+                    "Compression": 0,
+                    "WMM Enabled": 0,
+                    "tab": 0
+                },
+                "802.1x": {
+                    "802.1x Port Enabled": 0,
+                    "Authentication Type": 0,
+                    "Encryption": 0,
+                    "Group Encryption": 0,
+                    "tab": 0
+                },
+                "Signal": {
+                    "Last Activity": 0,
+                    "Tx/Rx Signal Strength": 0,
+                    "Tx/Rx Signal Strength Ch0": 0,
+                    "Tx/Rx Signal Strength Ch1": 0,
+                    "Tx/Rx Signal Strength Ch2": 0,
+                    "Tx/Rx Signal Strength Ch3": 0,
+                    "Signal To Noise": 0,
+                    "P Throughput": 0,
+                    "Signal Strengths": 0,
+                    "tab": 0,
+                    "Tx/Rx CCQ": 0
+                },
+                "Nstreme": {
+                    "Nstreme": 0,
+                    "Framing Mode": 0,
+                    "Framing Limit": 0,
+                    "Framing Current Size": 0,
+                    "tab": 0
+                },
+                "NV2": {
+                    "TDMA Timing Offset": 0,
+                    "TDMA Tx Size": 0,
+                    "TDMA Rx Size": 0,
+                    "tab": 0
+                },
+                "Statistics": {
+                    "Tx Rate": 0,
+                    "Rx Rate": 0,
+                    "Tx/Rx Packets": 0,
+                    "Tx/Rx Bytes": 0,
+                    "Tx/Rx Frames": 0,
+                    "Tx/Rx Frame Bytes": 0,
+                    "Tx/Rx Hw. Frames": 0,
+                    "Tx/Rx Hw. Frame Bytes": 0,
+                    "tab": 0
+                },
+                "Comment": 0,
+                "Reset": 0,
+                "Copy to Access List": 0,
+                "Copy to Connect List": 0,
+                "Ping": 0,
+                "MAC Ping": 0,
+                "Telnet": 0,
+                "MAC Telnet": 0,
+                "Torch": 0,
+                "name": "连接列表"
+            },
+            "Connect List": 0,
+            "Channels": 0,
+            "Interworking Profiles": 0,
+            "name": "无线设置",
+            "Virtual": {
+                "&": {
+                    "remove": 0,
+                    "set": {
+                        "name": "应用并返回"
+                    },
+                    "apply": {
+                        "name": "应用"
+                    },
+                    "cancel": {
+                        "name": "返回"
+                    }
+                },
+                "General": {
+                    "tab": 0,
+                    "Name": {
+                        "name": "接口名",
+                        "ro": true
+                    },
+                    "Type": {
+                        "name": "协议类型"
+                    },
+                    "MTU": 0,
+                    "Actual MTU": 0,
+                    "L2 MTU": 0,
+                    "MAC Address": {
+                        "separator": 0,
+                        "ro": true,
+                        "name": "MAC 地址"
+                    },
+                    "ARP": 0,
+                    "ARP Timeout": 0
+                },
+                "Wireless": {
+                    "tab": 0,
+                    "Mode": 0,
+                    "Secondary Channel": 0,
+                    "SSID": {
+                        "name": "SSID（WiFi名）"
+                    },
+                    "Master Interface": {
+                        "name": "上联接口"
+                    },
+                    "Security Profile": 0,
+                    "Interworking Profile": 0,
+                    "WPS Mode": 0,
+                    "Max Station Count": {
+                        "separator": 0
+                    },
+                    "VLAN Mode": 0,
+                    "VLAN ID": 0,
+                    "Default AP Tx Rate": 0,
+                    "Default Client Tx Rate": 0,
+                    "Multicast Helper": {
+                        "separator": 0
+                    },
+                    "Default Authenticate": 0,
+                    "Default Forward": 0,
+                    "Hide SSID": {
+                        "name": "隐藏WiFi"
+                    }
+                },
+                "WDS": {
+                    "tab": 0,
+                    "WDS Mode": 0,
+                    "WDS Default Bridge": 0,
+                    "WDS Default Cost": {
+                        "separator": 0
+                    },
+                    "WDS Ignore SSID": 0
+                },
+                "Simple Mode": 0,
+                "Status": {
+                    "tab": 0,
+                    "Last Link Down Time": 0,
+                    "Last Link Up Time": 0,
+                    "Link Downs": 0
+                },
+                "Wireless Protocol": {
+                    "separator": 0
+                },
+                "Last IP": {
+                    "separator": 0
+                },
+                "Registered Clients": 0,
+                "Authenticated Clients": 0,
+                "Traffic": {
+                    "tab": 0,
+                    "Tx/Rx Rate": 0,
+                    "Tx/Rx Packet Rate": 0,
+                    "FP Tx/Rx Rate": 0,
+                    "FP Tx/Rx Packet Rate": 0,
+                    "Tx/Rx Bytes": 0,
+                    "Tx/Rx Packets": 0,
+                    "Tx/Rx Drops": 0,
+                    "Tx Queue Drops": 0,
+                    "Tx/Rx Errors": 0,
+                    "Byte Graph": 0,
+                    "Packet Graph": 0
+                },
+                "Torch": 0,
+                "Reset Traffic Counters": 0,
+                "Enabled": {
+                    "name": "启用"
+                },
+                "Comment": 0
+            },
+            "WDS": {
+                "&": {
+                    "remove": 0
+                }
+            },
+            "WiFi Interfaces": {
+                "name": "WiFi设置"
+            },
+            "Wireless (IPQ4019)": {
+                "&": {
+                    "set": {
+                        "name": "应用并返回"
+                    },
+                    "apply": {
+                        "name": "应用"
+                    },
+                    "cancel": {
+                        "name": "返回"
+                    }
+                },
+                "General": {
+                    "tab": 0,
+                    "Name": {
+                        "name": "接口名称"
+                    },
+                    "Type": {
+                        "name": "协议类型"
+                    },
+                    "MTU": 0,
+                    "Actual MTU": 0,
+                    "L2 MTU": 0,
+                    "MAC Address": {
+                        "name": "MAC 地址",
+                        "ro": true,
+                        "separator": 0
+                    },
+                    "ARP": 0,
+                    "ARP Timeout": 0
+                },
+                "Simple Mode": 0,
+                "Wireless": {
+                    "tab": 0,
+                    "Mode": 0,
+                    "SSID": {
+                        "name": "SSID(WiFi名称)"
+                    },
+                    "Security Profile": 0,
+                    "WPS Mode": 0,
+                    "Frequency Mode": 0,
+                    "Country": 0,
+                    "Installation": 0,
+                    "VLAN Mode": {
+                        "separator": 0
+                    },
+                    "Default AP Tx Limit": 0,
+                    "Default Client Tx Limit": 0,
+                    "Default Authenticate": 0,
+                    "Default Forward": 0,
+                    "Hide SSID": {
+                        "name": "隐藏WiFi"
+                    },
+                    "Band": 0,
+                    "Channel Width": 0,
+                    "Frequency": 0
+                },
+                "Distance": 0,
+                "HT": {
+                    "tab": 0,
+                    "Tx Chains": 0,
+                    "Rx Chains": 0,
+                    "AMSDU Limit": 0,
+                    "AMSDU Threshold": 0,
+                    "Guard Interval": 0,
+                    "AMPDU Priorities": 0,
+                    "HT MCS": {
+                        "tab": 0
+                    }
+                },
+                "HT Supported MCS": 0,
+                "HT Basic MCS": 0,
+                "WDS": {
+                    "tab": 0,
+                    "WDS Mode": 0,
+                    "WDS Default Bridge": 0,
+                    "WDS Default Cost": {
+                        "separator": 0
+                    },
+                    "WDS Ignore SSID": 0
+                },
+                "Nstreme": {
+                    "tab": 0,
+                    "Enable Nstreme": 0,
+                    "Enable Polling": 0,
+                    "Disable CSMA": 0,
+                    "Framer Policy": 0,
+                    "Framer Limit": 0
+                },
+                "WPS Accept": 0,
+                "WPS Client": 0,
+                "Setup Repeater": 0,
+                "Scan...": 0,
+                "Freq. Usage...": 0,
+                "Align...": 0,
+                "Sniff...": 0,
+                "Snooper...": 0,
+                "Reset Configuration": 0,
+                "Status": {
+                    "tab": 0,
+                    "Last Link Down Time": 0,
+                    "Last Link Up Time": 0,
+                    "Link Downs": 0
+                },
+                "Channel": 0,
+                "Noise Floor": 0,
+                "Overall Tx CCQ": 0,
+                "Last IP": {
+                    "separator": 0
+                },
+                "Registered Clients": 0,
+                "Authenticated Clients": 0,
+                "Traffic": {
+                    "tab": 0,
+                    "Tx/Rx Rate": 0,
+                    "Tx/Rx Packet Rate": 0,
+                    "FP Tx/Rx Rate": 0,
+                    "FP Tx/Rx Packet Rate": 0,
+                    "Tx/Rx Bytes": 0,
+                    "Tx/Rx Packets": 0,
+                    "Tx/Rx Drops": 0,
+                    "Tx Queue Drops": 0,
+                    "Tx/Rx Errors": 0,
+                    "Byte Graph": 0,
+                    "Packet Graph": 0
+                },
+                "Torch": 0,
+                "Reset Traffic Counters": 0,
+                "Enabled": {
+                    "name": "启用"
+                },
+                "undefined": 0,
+                "Comment": 0
+            },
+            "Security Profiles": {
+                "&": {
+                    "remove": 0,
+                    "set": {
+                        "name": "应用并返回"
+                    },
+                    "apply": {
+                        "name": "应用 "
+                    },
+                    "cancel": {
+                        "name": "返回"
+                    }
+                },
+                "General": {
+                    "tab": 0,
+                    "Name": 0,
+                    "Mode": 0,
+                    "Authentication Types": 0,
+                    "WPA Pre-Shared Key": {
+                        "name": "请输入密码",
+                        "separator": 0
+                    },
+                    "WPA2 Pre-Shared Key": {
+                        "name": "确认输入",
+                        "note": "默认密码：wdwdwdwd"
+                    },
+                    "Supplicant Identity": 0,
+                    "Group Key Update": 0,
+                    "Management Protection": 0,
+                    "Management Protection Key": 0,
+                    "Disable PMKID": 0,
+                    "Unicast Ciphers": 0,
+                    "Group Ciphers": 0
+                },
+                "RADIUS": {
+                    "tab": 0,
+                    "MAC Authentication": 0,
+                    "MAC Accounting": 0,
+                    "EAP Accounting": 0,
+                    "Interim Update": 0,
+                    "MAC Format": 0,
+                    "MAC Mode": 0,
+                    "Called ID Format": 0,
+                    "MAC Caching Time": 0
+                },
+                "EAP": {
+                    "tab": 0,
+                    "EAP Methods": 0,
+                    "TLS Mode": 0,
+                    "TLS Certificate": 0,
+                    "MSCHAPv2 Username": 0,
+                    "MSCHAPv2 Password": 0
+                },
+                "Static Keys": {
+                    "tab": 0,
+                    "Key 0": 0,
+                    "Key 1": 0,
+                    "Key 2": 0,
+                    "Key 3": 0,
+                    "Transmit Key": 0,
+                    "St. Private Key": 0
+                },
+                "Comment": 0,
+                "name": "密码修改"
+            }
+        }
+    },
+    "Interfaces": 0,
+    "WireGuard": 0,
+    "PPP": {
+        "name": "VPN/拨号设置",
+        "SSTP Client": {
+            "&": {
+                "set": 0,
+                "remove": 0,
+                "apply": {
+                    "name": "应用"
+                },
+                "cancel": {
+                    "name": "返回"
+                }
+            },
+            "General": {
+                "Name": {
+                    "ro": true,
+                    "name": "接口名称"
+                },
+                "Type": 0,
+                "Actual MTU": 0,
+                "Max MTU": 0,
+                "MRRU": 0,
+                "tab": 0
+            },
+            "Dial Out": {
+                "Connect To": 0,
+                "Port": 0,
+                "Proxy": 0,
+                "Proxy Port": 0,
+                "Certificate": 0,
+                "TLS Version": 0,
+                "Verify Server Certificate": 0,
+                "Verify Server Address From Certificate": 0,
+                "PFS": 0,
+                "User": 0,
+                "Password": 0,
+                "Profile": 0,
+                "Keepalive Timeout": 0,
+                "Dial On Demand": 0,
+                "Add Default Route": 0,
+                "Default Route Distance": 0,
+                "Allow": 0,
+                "tab": 0,
+                "Ciphers": 0
+            },
+            "Status": {
+                "Last Link Down Time": 0,
+                "Last Link Up Time": 0,
+                "Link Downs": 0,
+                "Uptime": 0,
+                "Encoding": 0,
+                "MTU": 0,
+                "MRU": 0,
+                "Local Address": {
+                    "name": "远程维护IP地址"
+                },
+                "Remote Address": 0,
+                "Local IPv6 Address": 0,
+                "Remote IPv6 Address": 0,
+                "tab": 0
+            },
+            "Hw. Crypto": 0,
+            "Traffic": {
+                "Tx/Rx Rate": 0,
+                "Tx/Rx Packet Rate": 0,
+                "FP Tx/Rx Rate": 0,
+                "FP Tx/Rx Packet Rate": 0,
+                "Tx/Rx Bytes": 0,
+                "Tx/Rx Packets": 0,
+                "Tx/Rx Drops": 0,
+                "Tx/Rx Errors": 0,
+                "Byte Graph": 0,
+                "Packet Graph": 0,
+                "tab": 0,
+                "Tx Queue Drops": 0
+            },
+            "Torch": 0,
+            "Enabled": 0,
+            "Comment": 0,
+            "Dynamic": 0,
+            "Invalid": 0,
+            "running": 0,
+            "slave": 0,
+            "passthrough": 0,
+            "Reset Traffic Counters": 0
+        },
+        "PPP Server": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "PPP Client": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "PPP Scanner": 0,
+        "PPTP Server": 0,
+        "PPTP Server Binding": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "PPTP Client": {
+            "&": {
+                "remove": 0,
+                "set": {
+                    "name": "确认"
+                },
+                "apply": {
+                    "name": "应用"
+                },
+                "cancel": {
+                    "name": "返回"
+                }
+            },
+            "General": {
+                "tab": 0,
+                "Name": {
+                    "name": "接口名称",
+                    "ro": true
+                },
+                "Type": {
+                    "name": "协议类型"
+                },
+                "Actual MTU": 0,
+                "Max MTU": 0,
+                "Max MRU": 0,
+                "MRRU": 0
+            },
+            "Dial Out": {
+                "tab": 0,
+                "Connect To": {
+                    "name": "服务器地址"
+                },
+                "User": {
+                    "separator": 0,
+                    "name": "用户名"
+                },
+                "Password": {
+                    "name": "密码"
+                },
+                "Profile": 0,
+                "Keepalive Timeout": 0,
+                "Use Peer DNS": 0,
+                "Dial On Demand": 0,
+                "Add Default Route": 0,
+                "Default Route Distance": 0,
+                "Allow": 0
+            },
+            "Status": {
+                "tab": 0,
+                "Last Link Down Time": {
+                    "name": "上一次离线时间"
+                },
+                "Last Link Up Time": {
+                    "name": "上一次连接时间"
+                },
+                "Link Downs": {
+                    "name": "连接次数"
+                },
+                "Uptime": {
+                    "separator": 0,
+                    "name": "在线时长"
+                },
+                "Encoding": 0,
+                "MTU": {
+                    "separator": 0,
+                    "name": "当前 MTU值"
+                },
+                "MRU": {
+                    "name": "当前 MRU值"
+                },
+                "Local Address": {
+                    "separator": 0,
+                    "name": "本地客户端IP地址"
+                },
+                "Remote Address": {
+                    "name": "远程服务端IP地址"
+                },
+                "Local IPv6 Address": 0,
+                "Remote IPv6 Address": 0
+            },
+            "Traffic": {
+                "tab": 0,
+                "Tx/Rx Rate": 0,
+                "Tx/Rx Packet Rate": 0,
+                "FP Tx/Rx Rate": 0,
+                "FP Tx/Rx Packet Rate": 0,
+                "Tx/Rx Bytes": 0,
+                "Tx/Rx Packets": 0,
+                "Tx/Rx Drops": 0,
+                "Tx Queue Drops": 0,
+                "Tx/Rx Errors": 0,
+                "Byte Graph": 0,
+                "Packet Graph": 0
+            },
+            "Torch": 0,
+            "Reset Traffic Counters": 0,
+            "Enabled": {
+                "name": "启 用"
+            },
+            "Comment": {
+                "name": "备 注"
+            }
+        },
+        "SSTP Server": 0,
+        "SSTP Server Binding": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "L2TP Server": 0,
+        "L2TP Server Binding": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "L2TP Client": {
+            "&": {
+                "remove": 0,
+                "set": {
+                    "name": "应用并返回"
+                },
+                "cancel": {
+                    "name": "取消并返回"
+                },
+                "apply": {
+                    "name": "应用"
+                }
+            },
+            "General": {
+                "Name": {
+                    "name": "接口名称",
+                    "ro": true
+                },
+                "Type": {
+                    "name": "协议类型"
+                },
+                "Actual MTU": {
+                    "name": "实际MTU值"
+                },
+                "Max MTU": 0,
+                "Max MRU": 0,
+                "MRRU": 0,
+                "tab": 0
+            },
+            "Dial Out": {
+                "Connect To": {
+                    "name": "服务器地址"
+                },
+                "User": {
+                    "name": "用户名",
+                    "separator": 0
+                },
+                "Password": {
+                    "name": "密码"
+                },
+                "Profile": 0,
+                "Keepalive Timeout": 0,
+                "Src. Address": 0,
+                "Use Peer DNS": 0,
+                "Use IPsec": {
+                    "name": "启用 IPsec（共享秘钥）",
+                    "separator": 0
+                },
+                "IPsec Secret": {
+                    "name": "IPsec （共享秘钥）"
+                },
+                "Allow Fast Path": 0,
+                "Dial On Demand": 0,
+                "Add Default Route": 0,
+                "Default Route Distance": 0,
+                "VRF": 0,
+                "tab": 0
+            },
+            "Advanced": {
+                "Allow": 0,
+                "L2TP Protocol Version": 0,
+                "tab": 0
+            },
+            "Status": {
+                "Last Link Down Time": {
+                    "name": "最后一次离线时间"
+                },
+                "Last Link Up Time": {
+                    "name": "最后一次连接时间"
+                },
+                "Link Downs": {
+                    "name": "拨 号 次 数"
+                },
+                "Uptime": {
+                    "name": "在 线 时 长",
+                    "separator": 0
+                },
+                "Encoding": 0,
+                "MTU": {
+                    "name": "当前 MTU 值",
+                    "separator": 0
+                },
+                "MRU": {
+                    "name": "当前 MRU 值"
+                },
+                "Local Address": {
+                    "name": "本地地址",
+                    "separator": 0
+                },
+                "Remote Address": {
+                    "name": "远程地址"
+                },
+                "Local IPv6 Address": 0,
+                "Remote IPv6 Address": 0,
+                "tab": 0
+            },
+            "Traffic": {
+                "Tx/Rx Rate": 0,
+                "Tx/Rx Packet Rate": 0,
+                "FP Tx/Rx Rate": 0,
+                "FP Tx/Rx Packet Rate": 0,
+                "Tx/Rx Bytes": 0,
+                "Tx/Rx Packets": 0,
+                "Tx/Rx Drops": 0,
+                "Tx/Rx Errors": 0,
+                "Byte Graph": 0,
+                "Packet Graph": 0,
+                "tab": 0,
+                "Tx Queue Drops": 0
+            },
+            "Enabled": {
+                "name": "启用"
+            },
+            "Comment": 0,
+            "Torch": 0,
+            "Reset Traffic Counters": 0,
+            "undefined": 0
+        },
+        "OVPN Server": 0,
+        "OVPN Server Binding": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "OVPN Client": {
+            "&": {
+                "remove": 0,
+                "set": {
+                    "name": "确认"
+                },
+                "apply": {
+                    "name": "应用"
+                },
+                "cancel": {
+                    "name": "取消"
+                }
+            },
+            "General": {
+                "tab": 0,
+                "Name": {
+                    "name": "接口名称"
+                },
+                "Type": {
+                    "name": "接口类型"
+                },
+                "Actual MTU": 0,
+                "MAC Address": 0,
+                "Max MTU": 0
+            },
+            "Dial Out": {
+                "tab": 0,
+                "Connect To": {
+                    "name": "服务器地址"
+                },
+                "Port": {
+                    "name": "服务端口"
+                },
+                "Mode": 0,
+                "Protocol": 0,
+                "User": {
+                    "name": "用户名",
+                    "separator": 0
+                },
+                "Password": {
+                    "name": "密码"
+                },
+                "Profile": 0,
+                "Certificate": 0,
+                "Verify Server Certificate": 0,
+                "TLS Version": 0,
+                "Auth.": 0,
+                "Cipher": 0,
+                "Use Peer DNS": 0,
+                "Add Default Route": 0,
+                "Don't Add Pushed Routes (route-nopull)": 0
+            },
+            "Status": {
+                "tab": 0,
+                "Last Link Down Time": {
+                    "name": "上一次离线时间"
+                },
+                "Last Link Up Time": {
+                    "name": "上一次上线时间"
+                },
+                "Link Downs": {
+                    "name": "连接次数"
+                },
+                "Uptime": {
+                    "separator": 0,
+                    "name": "在线时长"
+                },
+                "Encoding": 0,
+                "MTU": 0,
+                "Local Address": {
+                    "separator": 0,
+                    "name": "本地客户端IP地址"
+                },
+                "Remote Address": {
+                    "name": "远程服务端地IP址"
+                },
+                "Local IPv6 Address": 0,
+                "Remote IPv6 Address": 0
+            },
+            "Traffic": {
+                "tab": 0,
+                "Tx/Rx Rate": 0,
+                "Tx/Rx Packet Rate": 0,
+                "FP Tx/Rx Rate": 0,
+                "FP Tx/Rx Packet Rate": 0,
+                "Tx/Rx Bytes": 0,
+                "Tx/Rx Packets": 0,
+                "Tx/Rx Drops": 0,
+                "Tx Queue Drops": 0,
+                "Tx/Rx Errors": 0,
+                "Byte Graph": 0,
+                "Packet Graph": 0
+            },
+            "Torch": 0,
+            "Reset Traffic Counters": 0,
+            "Enabled": {
+                "name": "启用"
+            },
+            "Comment": {
+                "name": "备注",
+                "order": 43
+            }
+        },
+        "PPPoE Server Binding": {
+            "&": {
+                "remove": 0
+            }
+        },
+        "PPPoE Client": {
+            "&": {
+                "remove": 0,
+                "set": {
+                    "name": "应用并返回"
+                },
+                "apply": {
+                    "name": "应用"
+                },
+                "cancel": {
+                    "name": "返回"
+                }
+            },
+            "General": {
+                "tab": 0,
+                "Name": {
+                    "name": "接口名称",
+                    "ro": true
+                },
+                "Type": {
+                    "name": "协议类型"
+                },
+                "Actual MTU": 0,
+                "Max MTU": 0,
+                "Max MRU": 0,
+                "MRRU": 0,
+                "Interfaces": {
+                    "separator": 0,
+                    "name": "连接接口"
+                }
+            },
+            "Dial Out": {
+                "tab": 0,
+                "Service": 0,
+                "AC Name": 0,
+                "Host Uniq": 0,
+                "User": {
+                    "separator": 0,
+                    "name": "账号"
+                },
+                "Password": {
+                    "name": "密码"
+                },
+                "Profile": 0,
+                "Keepalive Timeout": 0,
+                "Dial On Demand": 0,
+                "Use Peer DNS": {
+                    "name": "是否使用服务器分配DNS"
+                },
+                "Add Default Route": 0,
+                "Default Route Distance": 0,
+                "Allow": 0
+            },
+            "Status": {
+                "tab": 0,
+                "Last Link Down Time": {
+                    "name": "上一次离线时间"
+                },
+                "Last Link Up Time": {
+                    "name": "上一次上线时间"
+                },
+                "Link Downs": {
+                    "name": "连接次数"
+                },
+                "Uptime": {
+                    "name": "在线时长",
+                    "separator": 0
+                },
+                "Encoding": 0,
+                "MTU": {
+                    "name": "当前MTU值",
+                    "separator": 0
+                },
+                "MRU": {
+                    "name": "当前MRU值"
+                },
+                "Local Address": {
+                    "name": "客户端IP地址",
+                    "separator": 0
+                },
+                "Remote Address": {
+                    "name": "服务器IP地址"
+                },
+                "Local IPv6 Address": 0,
+                "Remote IPv6 Address": 0,
+                "Active Links": 0,
+                "Active Service Name": 0,
+                "Active AC Name": 0,
+                "AC MAC Address": 0
+            },
+            "PPPoE Scan": 0,
+            "Traffic": {
+                "tab": 0,
+                "Tx/Rx Rate": 0,
+                "Tx/Rx Packet Rate": 0,
+                "FP Tx/Rx Rate": 0,
+                "FP Tx/Rx Packet Rate": 0,
+                "Tx/Rx Bytes": 0,
+                "Tx/Rx Packets": 0,
+                "Tx/Rx Drops": 0,
+                "Tx Queue Drops": 0,
+                "Tx/Rx Errors": 0,
+                "Byte Graph": 0,
+                "Packet Graph": 0
+            },
+            "Torch": 0,
+            "Reset Traffic Counters": 0,
+            "Enabled": {
+                "name": "启用"
+            },
+            "Comment": 0
+        },
+        "PPPoE Scan": 0,
+        "PPPoE Servers": 0,
+        "Secrets": 0,
+        "Profiles": 0,
+        "Active Connections": 0,
+        "L2TP Ethernet": 0,
+        "L2TP Secrets": 0,
+        "Import .ovpn": 0
+    },
+    "Bridge": 0,
+    "Switch": 0,
+    "Mesh": 0,
+    "IP": {
+        "ARP": 0,
+        "Addresses": 0,
+        "Cloud": {
+            "Cloud": {
+                "&": {
+                    "apply": {
+                        "name": "确认"
+                    }
+                },
+                "DDNS Enabled": 0,
+                "DDNS Update Interval": 0,
+                "Update Time": 0,
+                "Public Address": {
+                    "name": "IPV4 IP地址"
+                },
+                "Public IPv6 Address": 0,
+                "DNS Name": 0,
+                "Use Local Address": 0,
+                "Force Update": 0,
+                "Cloud": {
+                    "tab": 0,
+                    "DDNS Enabled": 0,
+                    "DDNS Update Interval": 0,
+                    "Update Time": 0,
+                    "Public Address": {
+                        "name": "宽带公网IP地址"
+                    },
+                    "Public IPv6 Address": 0,
+                    "DNS Name": 0,
+                    "Use Local Address": 0
+                },
+                "BTH VPN": {
+                    "tab": 0,
+                    "Back To Home VPN": 0,
+                    "VPN DNS Name": 0,
+                    "VPN Port": 0,
+                    "VPN Status": 0,
+                    "VPN Relay RTTs": 0,
+                    "VPN Relay IPv4 Status": 0,
+                    "VPN Relay IPv6 Status": 0,
+                    "VPN Relay Codes": 0,
+                    "VPN Relay Addressess": 0,
+                    "VPN Relay IPv6 Addressess": 0,
+                    "VPN Private Key": 0,
+                    "VPN Public Key": 0,
+                    "VPN Peer Private Key": 0,
+                    "VPN Peer Public Key": 0,
+                    "VPN Interface": 0,
+                    "VPN Prefer Relay Code": 0
+                },
+                "BTH VPN WireGuard": {
+                    "tab": 0,
+                    "VPN WireGuard Client Config": 0,
+                    "VPN WireGuard Client Config QRCode": 0
+                },
+                "Back To Home Users": 0
+            },
+            "name": "宽带公网IP地址"
+        },
+        "name": "设备管理",
+        "DHCP Server": {
+            "DHCP": 0,
+            "DHCP Config": 0,
+            "DHCP Setup": 0,
+            "Networks": 0,
+            "Options": 0,
+            "Option Sets": 0,
+            "Vendor Classes": 0,
+            "Alerts": 0,
+            "name": "设备管理",
+            "Leases": {
+                "&": {
+                    "remove": {
+                        "name": "踢出设备"
+                    },
+                    "cancel": {
+                        "name": "取消并返回"
+                    },
+                    "set": {
+                        "name": "应用并返回"
+                    },
+                    "apply": {
+                        "name": "应用"
+                    },
+                    "add": {
+                        "name": "添加"
+                    }
+                },
+                "General": {
+                    "tab": "通用设置",
+                    "Address": {
+                        "name": "IP 地址"
+                    },
+                    "MAC Address": {
+                        "name": "MAC 地址"
+                    },
+                    "Client ID": {
+                        "name": "客户端 ID"
+                    },
+                    "Server": 0,
+                    "Use Src. MAC Address": {
+                        "name": "使用 源 MAC 地址"
+                    },
+                    "Lease Time": 0,
+                    "Block Access": 0,
+                    "Allow Dual Stack Queue": 0,
+                    "Always Broadcast": 0,
+                    "DHCP Options": 0,
+                    "DHCP Option Set": 0,
+                    "Rate Limit": 0,
+                    "Routes": 0,
+                    "Insert Queue Before": 0,
+                    "Address List": {
+                        "name": "地址 列表"
+                    }
+                },
+                "Active": {
+                    "tab": "活跃（在线）状态",
+                    "Active Address": {
+                        "name": "活跃的 I P 地址"
+                    },
+                    "Active MAC Address": {
+                        "name": "活跃的 MAC 地址"
+                    },
+                    "Active Client ID": {
+                        "name": "活跃的客户端 ID"
+                    },
+                    "Active Host Name": {
+                        "name": "设备名称（主机名）"
+                    },
+                    "Bridge Port": {
+                        "name": "物理网卡接口"
+                    },
+                    "Src. MAC Address": 0,
+                    "Expires After": {
+                        "name": "DHCP协议租期倒计时"
+                    },
+                    "Last Seen": {
+                        "name": "设备最后一次活跃时间"
+                    },
+                    "Age": {
+                        "name": "活跃时长"
+                    },
+                    "Agent Circuit Id": 0,
+                    "Agent Remote Id": 0,
+                    "Active Server": 0
+                },
+                "Enabled": {
+                    "name": "启用",
+                    "ro": 0
+                },
+                "Comment": 0,
+                "Make Static": {
+                    "name": "设为静态"
+                },
+                "Check Status": 0
+            },
+            "Option Matcher": 0
+        },
+        "Firewall": 0,
+        "Hotspot": 0,
+        "IPsec": 0,
+        "Kid Control": 0,
+        "Neighbors": 0,
+        "Packing": 0,
+        "Pool": 0,
+        "Routes": 0,
+        "SMB": 0,
+        "SNMP": 0,
+        "SSH": 0,
+        "Services": 0,
+        "Settings": 0,
+        "Socks": 0,
+        "TFTP": 0,
+        "Traffic Flow": 0,
+        "UPnP": 0,
+        "VRF": 0,
+        "Web Proxy": 0,
+        "DHCP Client": 0,
+        "DHCP Relay": 0,
+        "DNS": {
+            "Settings": {
+                "&": {
+                    "apply": {
+                        "name": "应用"
+                    }
+                },
+                "Use DoH Server": 0,
+                "Verify DoH Certificate": 0,
+                "Allow Remote Requests": 0,
+                "Max UDP Packet Size": 0,
+                "Query Server Timeout": 0,
+                "Query Total Timeout": 0,
+                "Max. Concurrent Queries": 0,
+                "Max. Concurrent TCP Sessions": 0,
+                "Cache Size": 0,
+                "Cache Max TTL": 0,
+                "Cache Used": 0,
+                "Dynamic Servers": 0,
+                "Servers": {
+                    "name": "静态DNS服务器"
+                },
+                "mDNS Repeater Interfaces": 0,
+                "VRF": 0
+            },
+            "Static": 0,
+            "Cache": {
+                "name": "DNS本地缓存"
+            }
+        },
+        "NAT PMP": 0
+    },
+    "MPLS": 0,
+    "IPv6": 0,
+    "Routing": 0,
+    "System": {
+        "Auto Upgrade": 0,
+        "Certificates": 0,
+        "Clock": {
+            "name": "时钟",
+            "Clock": {
+                "Time": {
+                    "Time": {
+                        "name": "当前时间",
+                        "ro": true
+                    },
+                    "Date": {
+                        "name": "当前日期",
+                        "ro": true
+                    },
+                    "Time Zone Autodetect": 0,
+                    "Time Zone Name": {
+                        "name": "时区",
+                        "ro": true
+                    },
+                    "tab": 0,
+                    "GMT Offset": 0,
+                    "DST Active": 0
+                },
+                "Manual Time Zone": {
+                    "tab": 0,
+                    "Time Zone": 0,
+                    "DST Delta": 0,
+                    "DST Start": 0,
+                    "DST End": 0
+                },
+                "&": {
+                    "apply": {
+                        "name": "..."
+                    }
+                }
+            }
+        },
+        "Console": 0,
+        "name": "系统设置",
+        "Disks": 0,
+        "History": 0,
+        "Identity": {
+            "name": "路由器名（主机名）",
+            "Identity": {
+                "Identity": {
+                    "name": "路由器名称"
+                }
+            }
+        },
+        "LEDs": 0,
+        "License": 0,
+        "Logging": 0,
+        "NTP Client": 0,
+        "NTP Server": 0,
+        "Note": 0,
+        "Packages": 0,
+        "Password": {
+            "name": "密码",
+            "Change Now": {
+                "&": {
+                    "start": {
+                        "name": "确认修改"
+                    },
+                    "cancel": {
+                        "name": "取消修改"
+                    }
+                },
+                "Old Password": {
+                    "name": "旧密码"
+                },
+                "New Password": {
+                    "name": "新密码"
+                },
+                "Confirm Password": {
+                    "name": "确认新密码"
+                }
+            }
+        },
+        "Ports": 0,
+        "Reboot": {
+            "name": "重启路由器"
+        },
+        "Reset Configuration": 0,
+        "Resources": {
+            "Resources": {
+                "Uptime": {
+                    "name": "不间断运行时间"
+                },
+                "Free Memory": {
+                    "separator": 0,
+                    "name": "空闲运行内存"
+                },
+                "Total Memory": {
+                    "name": "总运行内存"
+                },
+                "CPU": {
+                    "name": "CPU核心",
+                    "separator": 0
+                },
+                "CPU Count": {
+                    "name": "核心数量"
+                },
+                "CPU Frequency": {
+                    "name": "CPU主频率"
+                },
+                "CPU Load": {
+                    "name": "CPU 负载"
+                },
+                "Free HDD Space": {
+                    "name": "硬盘剩余内存",
+                    "separator": 0
+                },
+                "Total HDD Size": {
+                    "name": "硬盘总内存"
+                },
+                "Sector Writes Since Reboot": 0,
+                "Total Sector Writes": 0,
+                "Architecture Name": {
+                    "name": "系统架构",
+                    "separator": 0
+                },
+                "Board Name": {
+                    "name": "硬件类型"
+                },
+                "Version": {
+                    "name": "路由版本"
+                },
+                "Build Time": {
+                    "name": "构建时间"
+                },
+                "Factory Software": {
+                    "name": "出产版本"
+                }
+            },
+            "PCI": 0,
+            "USB": 0,
+            "CPU": 0,
+            "IRQ": 0,
+            "RPS": 0,
+            "Hardware": 0,
+            "name": "关于本机（路由器信息）"
+        },
+        "RouterBOARD": 0,
+        "Scheduler": 0,
+        "Scripts": {
+            "name": "一键修改（脚本）",
+            "Scripts": {
+                "&": {
+                    "set": 0,
+                    "remove": 0,
+                    "apply": {
+                        "name": 0
+                    },
+                    "cancel": {
+                        "name": "返回"
+                    }
+                },
+                "Name": {
+                    "ro": true,
+                    "name": "脚本名称"
+                },
+                "Don't Require Permissions": 0,
+                "Policy": 0,
+                "Last Time Started": {
+                    "name": "上一次运行时间"
+                },
+                "Run Count": {
+                    "name": "运行次数"
+                },
+                "Source": 0,
+                "Run Script": {
+                    "name": "运行脚本"
+                },
+                "Owner": {
+                    "name": "脚本作者"
+                },
+                "Comment": {
+                    "name": "备  注",
+                    "order": 7
+                }
+            },
+            "Jobs": 0,
+            "Environment": 0
+        },
+        "Shutdown": {
+            "name": "关闭路由器（慎点）"
+        },
+        "Special Login": 0,
+        "Users": 0,
+        "Watchdog": 0,
+        "GPS": 0,
+        "Health": 0,
+        "UPS": 0
+    },
+    "Log": {
+        "name": "系统日志"
+    },
+    "RADIUS": 0,
+    "Tools": {
+        "BTest Server": 0,
+        "Bandwidth Test": 0,
+        "Email": 0,
+        "Flood Ping": 0,
+        "Graphing": 0,
+        "IP Scan": 0,
+        "MAC Server": 0,
+        "Netwatch": 0,
+        "Packet Sniffer": 0,
+        "Ping": {
+            "name": "Ping测试",
+            "Ping": {
+                "&": {
+                    "start": {
+                        "name": "开始"
+                    },
+                    "stop": {
+                        "name": "停止"
+                    },
+                    "cancel": {
+                        "name": "返回"
+                    }
+                },
+                "General": {
+                    "Ping To": {
+                        "note": "只能pingIP地址，无法ping域名"
+                    },
+                    "Interface": {
+                        "name": "接口"
+                    },
+                    "ARP Ping": 0,
+                    "Packet Count": 0,
+                    "Timeout": 0,
+                    "tab": 0,
+                    "VRF": 0
+                },
+                "Advanced": {
+                    "Src. Address": 0,
+                    "Packet Size": 0,
+                    "TTL": 0,
+                    "DSCP": 0,
+                    "Dont Fragment": 0
+                }
+            }
+        },
+        "Ping Speed": 0,
+        "Profile": 0,
+        "RoMON": 0,
+        "SMS": 0,
+        "Speed Test": 0,
+        "Telnet": 0,
+        "Torch": 0,
+        "Traceroute": 0,
+        "Traffic Generator": 0,
+        "Traffic Monitor": 0,
+        "WoL": 0,
+        "name": "系统工具"
+    },
+    "Partition": 0,
+    "Make Supout.rif": 0,
+    "Undo": {
+        "name": "撤销操作"
+    },
+    "Redo": {
+        "name": "重新操作"
+    },
+    "Hide Passwords": 0,
+    "Safe Mode": 0,
+    "Graphs": 0,
+    "License": 0,
+    "Quick Set": 0,
+    "Status": {
+        "Status": {
+            "20": {
+                "alias": "IP:Addresses:Address:*1:Address",
+                "name": "LAN 地址"
+            },
+            "21": {
+                "alias": "Interfaces:Ethernet:*1:Traffic:Tx/Rx Rate",
+                "name": "发送/接收 字节速率"
+            },
+            "22": {
+                "alias": "Interfaces:Ethernet:*1:Traffic:Tx/Rx Packet Rate",
+                "name": "发送/接收 包速率"
+            },
+            "23": {
+                "alias": "Interfaces:Ethernet:*1:Traffic:Tx/Rx Bytes",
+                "name": "发送/接收 字节数"
+            },
+            "24": {
+                "alias": "Interfaces:Ethernet:*1:Traffic:Tx/Rx Packets",
+                "name": "发送/接收 数据包"
+            },
+            "26": {
+                "alias": "Interfaces:Ethernet:*2:Traffic:Tx/Rx Rate",
+                "name": "发送/接收 字节速率"
+            },
+            "27": {
+                "alias": "Interfaces:Ethernet:*2:Traffic:Tx/Rx Packet Rate",
+                "name": "发送/接收 包速率",
+                "order": 15
+            },
+            "28": {
+                "alias": "Interfaces:Ethernet:*2:Traffic:Tx/Rx Bytes",
+                "name": "发送/接收 字节数",
+                "order": 17
+            },
+            "29": {
+                "alias": "Interfaces:Ethernet:*2:Traffic:Tx/Rx Packets",
+                "name": "发送/接收 数据包"
+            },
+            "30": {
+                "alias": "Interfaces:Ethernet:*1:Traffic:Byte Graph",
+                "name": "LAN 字节速率曲线图"
+            },
+            "31": {
+                "alias": "Interfaces:Ethernet:*1:Traffic:Packet Graph",
+                "name": "LAN 包速率曲线图"
+            },
+            "32": {
+                "alias": "Interfaces:Ethernet:*2:Traffic:Byte Graph",
+                "name": "WAN 字节速率曲线图",
+                "order": 20
+            },
+            "33": {
+                "alias": "Interfaces:Ethernet:*2:Traffic:Packet Graph",
+                "name": "WAN 包速率曲线图"
+            },
+            "34": {
+                "alias": "Interfaces:Ethernet:*2:Status:Rate",
+                "name": "WAN口网卡速率",
+                "order": 18
+            },
+            "35": {
+                "alias": "IP:Cloud:Cloud:Cloud:Public Address",
+                "name": "宽带出口公网IP",
+                "order": 16
+            },
+            "36": {
+                "alias": "IP:DHCP Client:DHCP Client:*1:Status:Gateway",
+                "name": "上级网关",
+                "order": 19
+            },
+            "37": {
+                "alias": "IP:Addresses:Address:*10:Address",
+                "name": "WAN 地址",
+                "order": 14
+            },
+            "38": {
+                "alias": "System:Clock:Clock:Time:Date",
+                "name": "当前日期",
+                "order": 5
+            },
+            "39": {
+                "alias": "System:Clock:Clock:Time:Time",
+                "name": "当前时间",
+                "order": 4
+            },
+            "40": {
+                "alias": "System:Resources:Resources:Architecture Name",
+                "order": 13,
+                "name": "系统架构"
+            },
+            "41": {
+                "alias": "System:Resources:Resources:Version",
+                "order": 12,
+                "name": "固件版本"
+            },
+            "42": {
+                "alias": "System:Resources:Resources:Uptime",
+                "order": 11,
+                "name": "不间断运行时长"
+            },
+            "rows": 11,
+            "&": {
+                "undefined": {
+                    "title": "wendy-ip.com"
+                }
+            }
+        },
+        "name": "运行状态"
+    },
+    "Queues": 0,
+    "Dot1X": 0,
+    "Files": 0,
+    "Terminal": 0,
+    "WebFig": {
+        "name": "网页设置"
+    },
+    "User Manager": 0,
+    "TR069": 0,
+    "LoRa": 0,
+    "IoT": 0,
+    "Dude": 0,
+    "Container": 0,
+    "Manual": 0,
+    "About": 0,
+    "WiFi": 0,
+    "Reboot": {
+        "name": "路由器重启"
+    },
+    "Logout": {
+        "name": "退出登录"
+    },
+    "ZeroTier": 0
+}
